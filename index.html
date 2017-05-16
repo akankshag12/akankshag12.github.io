@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta name="description" content="All you need to know about Akanksha Garg.">
+		<title>Akanksha's Portfolio</title>
+		<script src="https://use.fontawesome.com/03fd0a2b58.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Muli"> 
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="hero">
+				<h1>AKANKSHA<br>GARG</h1>
+				<h3>You can call me "AK"</h3>
+				<button id="modal-button" class="button primary">Say Hello</button>
+			</div>
+		</header>
+			    
+		<section class="alternate-section">
+			<div class="container">
+				<h2>About</h2>
+				<p class="left-align">Hello! I'm AK. (Yes, just like an AK-47). I'm a seasoned product manager and I've recently been interested in learning a bit of coding. I'm a SoCal native, so along with seeing beautiful beach sunsets on the daily, I've also seen the rise of Silicon Beach. I am so excited to be a player in LA tech and can't wait to see what we come up with as a community. Feel free to reach out for consulting, advice, contract work, to grab a drink or just to say hello. I love meeting new people and learning new things!</p>
+			</div>
+		</section>
+    
+		<section id="resume">
+			<div class="container">
+				<h2>Experience</h2>
+				<div class="left-container">
+					<img src='images/resume.png' alt="Akanksha's Resume" height="450px">
+				</div>
+				<div class="right-container">
+					<div class="links">
+						<a class="button secondary" href="images/Akanksha Garg - Resume.pdf" download>Download Resume</a>
+						<a class="button secondary" href="https://www.linkedin.com/in/akankshagarg12/">View on LinkedIn</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="alternate-section tall">
+			<div class="container-interests">
+				<h2>Interests</h2>
+					<div class="center-content">
+						<img class="interests" src="images/icecream.jpg" alt="Ice Cream">
+					</div>
+					<div class="center-content">
+						<img class="interests" src="images/beer.jpg" alt="Beer">
+					</div>
+					<div class="center-content">
+						<img class="interests" src="images/bike.jpg" alt="Biking">
+					</div>
+					<div class="center-content">
+						<img class="interests" src="images/concert.jpg" alt="Live Music">
+					</div>
+					<div class="center-content">
+						<img class="interests" src="images/sunset.jpg" alt="Beach, Sunsets">
+					</div>
+					<div class="center-content">
+						<img class="interests" src="images/tea.jpg" alt="Tea">
+					</div>
+			</div>
+		</section>
+
+		<footer>
+			<div id="footer">
+				<a href="https://www.facebook.com/akankshagarg"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/in/akankshagarg12/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+				<!-- contact modal...couldn't get this to work for the mail icon-->
+				<!-- <span id="myBtn"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i> </span> -->
+				<a href="mailto:akankshagarg12@gmail.com?Subject=Hello!"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i> <target="_top"></a>
+				<p> Created by Akanksha Garg</p>
+			</div>
+		</footer>
+
+		<!-- Contact Modal -->
+			<div id="contact-modal" class="modal animated fadeIn">
+			  <div class="modal-content">
+			    <span class="close">&times;</span>
+			    	<div class="contact">
+			    		<div class="container">
+				    			<img src="images/hi emoji.png" width="30em">
+							<h2>Say Hello</h2> 
+						</div>
+						<form method="POST" action="http://formspree.io/akankshagarg12@gmail.com">
+						  <input type="text" name="full name" placeholder="Your name">
+						  <input type="email" name="email" placeholder="Your email">
+						  <textarea name="message" placeholder="Your message"></textarea>
+						  <button class="button secondary" type="submit">Send</button>
+						  <!-- <input type="password" name="password"> -->
+						</form>
+					</div>
+			  </div>
+			</div>
+
+	</body>
+</html>
